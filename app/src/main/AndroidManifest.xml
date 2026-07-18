@@ -11,6 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.D2l">
+        <activity android:name=".HomeActivity" android:exported="true" />
+        <activity android:name=".StartHereActivity" android:exported="true" />
+        <activity android:name=".WelcomeActivity" android:exported="true" />
+        <activity android:name=".SyllabusActivity" android:exported="true" />
+        <activity android:name=".LabReportInstructionsActivity" android:exported="true" />
+        <activity android:name=".ProjectInstructionsActivity" android:exported="true" />
+        <activity android:name=".ModuleListActivity" android:exported="true" />
         <activity android:name=".Module5Activity" />
         <activity android:name=".Module4Activity" />
         <activity android:name=".Module3Activity" />
