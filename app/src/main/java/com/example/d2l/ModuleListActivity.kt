@@ -21,9 +21,16 @@ class ModuleListActivity : ComponentActivity() {
                         ModuleListEntry("Learning Module 2", Module2Activity::class.java),
                         ModuleListEntry("Learning Module 3", Module3Activity::class.java),
                         ModuleListEntry("Learning Module 4", Module4Activity::class.java),
-                        ModuleListEntry("Learning Module 5", Module5Activity::class.java)
-                        // Will dd the rest as they get built
-                        // Follow same layout as the ones above
+                        ModuleListEntry("Learning Module 5", Module5Activity::class.java),
+                        ModuleListEntry("Learning Module 6", Module6Activity::class.java),
+                        ModuleListEntry("Learning Module 7", Module7Activity::class.java),
+                        ModuleListEntry("Learning Module 8", Module8Activity::class.java),
+                        ModuleListEntry("Learning Module 9", Module9Activity::class.java),
+                        ModuleListEntry("Learning Module 10", Module10Activity::class.java),
+                        ModuleListEntry("Learning Module 11", Module11Activity::class.java),
+                        ModuleListEntry("Learning Module 12", Module12Activity::class.java),
+                        ModuleListEntry("Learning Module 13", Module13Activity::class.java)
+
                     ),
                     onSelect = { entry ->
                         startActivity(Intent(this, entry.activityClass))

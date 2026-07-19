@@ -18,10 +18,18 @@
         <activity android:name=".LabReportInstructionsActivity" android:exported="true" />
         <activity android:name=".ProjectInstructionsActivity" android:exported="true" />
         <activity android:name=".ModuleListActivity" android:exported="true" />
-        <activity android:name=".Module5Activity" />
-        <activity android:name=".Module4Activity" />
-        <activity android:name=".Module3Activity" />
         <activity android:name=".Module2Activity" />
+        <activity android:name=".Module3Activity" />
+        <activity android:name=".Module4Activity" />
+        <activity android:name=".Module5Activity" />
+        <activity android:name=".Module6Activity" android:exported="true" />
+        <activity android:name=".Module7Activity" android:exported="true" />
+        <activity android:name=".Module8Activity" android:exported="true" />
+        <activity android:name=".Module9Activity" android:exported="true" />
+        <activity android:name=".Module10Activity" android:exported="true" />
+        <activity android:name=".Module11Activity" android:exported="true" />
+        <activity android:name=".Module12Activity" android:exported="true" />
+        <activity android:name=".Module13Activity" android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
