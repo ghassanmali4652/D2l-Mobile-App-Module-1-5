@@ -18,6 +18,7 @@
         <activity android:name=".LabReportInstructionsActivity" android:exported="true" />
         <activity android:name=".ProjectInstructionsActivity" android:exported="true" />
         <activity android:name=".ModuleListActivity" android:exported="true" />
+        <activity android:name=".Module1Activity" />
         <activity android:name=".Module2Activity" />
         <activity android:name=".Module3Activity" />
         <activity android:name=".Module4Activity" />

@@ -17,7 +17,7 @@ class ModuleListActivity : ComponentActivity() {
             D2lTheme {
                 ModuleListScreen(
                     entries = listOf(
-                        ModuleListEntry("Learning Module 1", MainActivity::class.java),
+                        ModuleListEntry("Learning Module 1", Module1Activity::class.java),
                         ModuleListEntry("Learning Module 2", Module2Activity::class.java),
                         ModuleListEntry("Learning Module 3", Module3Activity::class.java),
                         ModuleListEntry("Learning Module 4", Module4Activity::class.java),
